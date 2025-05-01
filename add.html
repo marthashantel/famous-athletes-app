@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Athlete</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Add a Famous Athlete</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="add.html">Add Athlete</a></li>
+        <li><a href="athlete.html">Athlete Details</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Enter Athlete Information</h2>
+      <form id="athlete-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="sport">Sport:</label>
+        <input type="text" id="sport" required />
+
+        <label for="nationality">Nationality:</label>
+        <input type="text" id="nationality" required />
+
+        <label for="awards">Awards:</label>
+        <input type="text" id="awards" required />
+
+        <label for="funFact">Fun Fact:</label>
+        <input type="text" id="funFact" required />
+
+        <label for="image">Image URL:</label>
+        <input type="text" id="image" required />
+
+        <button type="submit">Add Athlete</button>
+      </form>
+      <p id="message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Famous Athletes Website. All rights reserved.</p>
+  </footer>
+
+  <script src="js/add.js"></script>
+</body>
+</html>

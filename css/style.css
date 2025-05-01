@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: black;
+  }
+  
+  header {
+    background-color: #111e27;
+    color: #fff;
+    padding: 1rem 2rem;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+
+  #athlete-list h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .athlete-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .athlete-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .athlete-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .athlete-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .athlete-card h3 {
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .athlete-card p {
+    padding: 0 1rem 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #202d36;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .athlete-card {
+      width: 100%;
+      max-width: 90%;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+form button {
+  background-color: #f9a825; 
+}
+
+form button:hover {
+  background-color: #c17900;
+}
+
+.athlete-card:hover {
+  border-color: #f9a825;
+}
+
+  }
+  
